@@ -1,1 +1,99 @@
-/home/konrad/.config/sdrpp/config.json
+{
+    "bandColors": {
+        "amateur": "#FF0000FF",
+        "aviation": "#00FF00FF",
+        "broadcast": "#0000FFFF",
+        "marine": "#00FFFFFF",
+        "military": "#FFFF00FF"
+    },
+    "bandPlan": "Germany",
+    "bandPlanEnabled": true,
+    "bandPlanPos": 0,
+    "centerTuning": false,
+    "colorMap": "WebSDR",
+    "fastFFT": false,
+    "fftHeight": 454,
+    "fftSize": 65536,
+    "frequency": 97996135.5249578,
+    "fullWaterfallUpdate": true,
+    "max": 0.0,
+    "maximized": false,
+    "menuElements": [
+        {
+            "name": "Source",
+            "open": true
+        },
+        {
+            "name": "Radio",
+            "open": true
+        },
+        {
+            "name": "Recorder",
+            "open": true
+        },
+        {
+            "name": "Sinks",
+            "open": true
+        },
+        {
+            "name": "VFO Color",
+            "open": false
+        },
+        {
+            "name": "Scripting",
+            "open": false
+        },
+        {
+            "name": "Band Plan",
+            "open": false
+        },
+        {
+            "name": "Display",
+            "open": true
+        },
+        {
+            "name": "Module Manager",
+            "open": false
+        }
+    ],
+    "menuWidth": 250,
+    "min": -109.4117660522461,
+    "moduleInstances": {
+        "Airspy Source": "airspy_source",
+        "AirspyHF+ Source": "airspyhf_source",
+        "Audio Sink": "audio_sink",
+        "File Source": "file_source",
+        "HackRF Source": "hackrf_source",
+        "PlutoSDR Source": "plutosdr_source",
+        "RTL-SDR Source": "rtl_sdr_source",
+        "RTL-TCP Source": "rtl_tcp_source",
+        "Radio": "radio",
+        "Recorder": "recorder",
+        "SDRplay Source": "sdrplay_source",
+        "SoapySDR Source": "soapy_source"
+    },
+    "modules": [],
+    "modulesDirectory": "/usr/lib/sdrpp/plugins",
+    "offset": 0.0,
+    "resourcesDirectory": "/usr/share/sdrpp",
+    "showMenu": true,
+    "showWaterfall": true,
+    "source": "SDRplay",
+    "streams": {
+        "Radio": {
+            "muted": false,
+            "sink": "Audio",
+            "volume": 0.6020408272743225
+        }
+    },
+    "vfoColors": {
+        "Radio": "#80CDFF"
+    },
+    "vfoOffsets": {
+        "Radio": 1003864.4750421941
+    },
+    "windowSize": {
+        "h": 1023,
+        "w": 1680
+    }
+}
